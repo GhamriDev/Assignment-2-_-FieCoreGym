@@ -2,8 +2,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: "Inter ,sans-serif";
-
+    font-family: 'Inter';
+    line-height: 1.5;
 }
 
 .left{
@@ -24,16 +24,155 @@
 
 button, span,a {display: inline-block;}
 
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
 img{
     max-width: 100%;
 }
 
 /*End of Presets*/
+
+/*Start of Container Styling*/
+
 .container{
-    width: 60%;
-    margin: auto;
-    background-color: aqua;
+    width: 70%;
+    margin: 120px auto;
+
 
 }
 
-/*Start of Container Styling*/
+ /*Start of Hero Section*/
+
+.hero-header{
+    width: 50%;
+    margin-bottom: 150px;
+    margin-left: 20px;
+}
+.hero-header h1{
+    font-size: 67px;
+    margin-bottom: 30px;
+}
+
+.hero-header p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: light;
+}
+
+.hero-header button{
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.hero-image{
+    width: 30%;
+    padding: 20px;
+    margin-right: 100px;
+}
+ /*End of Hero Section*/
+
+ /*Start of Why Choose Us Styling*/
+.WhyChooseUS h2 , .WhyChooseUS .WhyChooseUS-paragraph{
+        text-align: center;
+}
+.WhyChooseUS h2{
+    font-size: 45px ;
+    margin-bottom: 20px;
+}
+.WhyChooseUS .WhyChooseUS-paragraph{
+        font-size: 20px;
+}
+.cards{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.premium, .expert, .flexible{
+    float: left;
+    width: 26%;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: light;
+    text-align: center;
+
+}
+.premium{
+    background-color: oklch(93.2% .032 255.585);
+}
+.expert{
+    background-color: oklch(95% .052 163.051);
+}
+.flexible{
+    background-color: oklch(94.6% .033 307.174);
+}
+h3{
+    margin: 10px 0px;
+}
+
+.blue-square , .green-square, .violet-square{
+    background-color: white;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.blue-square{
+    border: 15px solid rgb(0 87 250 / 90%);
+}
+.green-square{
+    border: 15px solid rgba(26, 131, 75, 0.9);
+}
+.violet-square{
+    border: 15px solid rgba(141, 29, 216, 0.9);
+}
+
+.undercard {
+    margin-top: 50px;
+}
+.undercard .undercard-img{
+    width: 46%;
+}
+
+.undercard .undercard-img img{
+    width: 90%;
+        border-radius: 15px;
+        margin-left: 15px;
+}
+
+.WhyChooseUS .undercard .undercard-description{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.undercard .undercard-description h3{
+    font-size: 30px;
+}
+
+.undercard .undercard-description .brief {
+    border-left: 4px solid rgb(58, 58, 58);
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.undercard .undercard-description .brief h4{
+    margin-bottom: 5px;
+}
+.undercard .undercard-description .brief p{
+   color: rgb(173 172 172);
+}
+/* .expert, .flexible{
+    margin-left: 15px;
+} */
+ /*End of Why Choose Us Styling*/
+/*End of Container Styling*/
