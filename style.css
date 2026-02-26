@@ -1,0 +1,39 @@
+/*Start of Presets*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter ,sans-serif";
+
+}
+
+.left{
+    float:left ;
+}
+ 
+.right{
+    float: right;
+}
+
+.clr-fix{
+    clear: both;
+}
+
+.rounded{
+    border-radius: 15px;
+}
+
+button, span,a {display: inline-block;}
+
+img{
+    max-width: 100%;
+}
+
+/*End of Presets*/
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: aqua;
+
+}
+
+/*Start of Container Styling*/
