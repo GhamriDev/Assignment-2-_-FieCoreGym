@@ -270,7 +270,7 @@ h3 {
 
 
 .statistics {
-    width: 68%;
+    width: 75%;
     padding: 50px;
     background-color: rgb(242 242 242);
     border-radius: 20px;
@@ -377,6 +377,106 @@ form .send button {
 
 /*End of Form Styling*/
 
+/*Start of Site Footer Styling*/
+.site-footer {
+    background-color: oklch(21% .034 264.665);
+    padding: 50px;
+}
+
+.sections {
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid rgba(172, 172, 172, 0.5);
+    padding-bottom: 50px;
+}
+
+.fit_core,
+.quick_links,
+.contact_info {
+    float: left;
+}
+
+
+.fit_core {
+    width: 45%;
+    margin-left: 50px;
+}
+
+.core_header {
+    font-size: 25px;
+    color: white;
+}
+
+.normal,
+.subtitle {
+    color: white;
+}
+
+.core_paragraph,
+.sub_paragraph,
+.copyrights {
+    color: oklch(70.7% .022 261.325);
+}
+
+.core_links li {
+    list-style: none;
+    float: left;
+    margin: 15px;
+}
+
+.core_links li a,
+.quick_links ul li a,
+.policies {
+    text-decoration: none;
+    color: oklch(70.7% .022 261.325);
+}
+
+.quick_links {
+    margin-left: 30px;
+}
+
+.quick_links ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.contact_info {
+    margin-left: 100px;
+}
+
+.sub_paragraph {
+    margin-bottom: 10px;
+}
+
+.underfooter {
+    margin: 10px auto;
+    width: 70%;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.copyrights {
+    margin-top: 30px;
+    /* margin-left: 300px; */
+    width: 400px;
+}
+
+.copy_rights_links {
+    width: 500px;
+    margin-top: 18px;
+    margin-right: -100px;
+}
+
+.policies {
+    margin: 10px;
+}
+
+.copyrights,
+.policies {
+    font-size: smaller;
+}
+
+/*End of Site Footer Styling*/
 
 
 /*End of Container Styling*/
